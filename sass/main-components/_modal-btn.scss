@@ -1,0 +1,15 @@
+.modal-btn.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  color: $primary-white-color;
+  background-color: $accent-color;
+
+  &:hover,
+  &:focus {
+    color: $title-text-color;
+    background-color: $secondary-bg-color;
+    cursor: pointer;
+  }
+}

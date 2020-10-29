@@ -1,0 +1,32 @@
+.footer-contacts .address {
+  display: inline-block;
+  margin-top: 0;
+  margin-bottom: 9px;
+
+  color: $primary-white-color;
+
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+.site-contacts .item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-contacts .link {
+  color: rgba(255, 255, 255, 0.6);
+
+  text-decoration: none;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.17;
+
+  transition: color 250ms $timing-function;
+}
+
+.site-contacts .link:hover,
+.site-contacts .link:focus {
+  color: $accent-color;
+}
