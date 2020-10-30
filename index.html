@@ -17,25 +17,27 @@
   <body>
     <!-- Шапка сайта -->
     <header class="page-header">
-      <div class="head-box container">
+      <div class="container page-header__container">
         <a href="./index.html" class="logo"
-          >Web<span class="accent">Studio</span>
+          >Web<span class="logo__accent">Studio</span>
         </a>
         <nav class="site-nav">
-          <ul class="nav-list list">
-            <li class="item">
-              <a href="./index.html" class="link current">Студия</a>
+          <ul class="list nav-list site-nav__nav-list">
+            <li class="site-nav__item">
+              <a href="./index.html" class="site-nav__link current">Студия</a>
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link">Портфолио</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфолио</a>
             </li>
-            <li class="item"><a href="/" class="link">Контакты</a></li>
+            <li class="site-nav__item">
+              <a href="/" class="site-nav__link">Контакты</a>
+            </li>
           </ul>
         </nav>
-        <ul class="header-contacts list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="mail link">
-              <svg class="icon" width="21" height="17">
+        <ul class="list contacts page-header__contacts">
+          <li class="contacts__item">
+            <a href="mailto:info@devstudio.com" class="link contacts__mail">
+              <svg class="contacts__icon" width="21" height="17">
                 <use
                   href="./pictures/icons/icomoon/sprite.svg#icon-envelope"
                 ></use>
@@ -43,9 +45,9 @@
               info@devstudio.com
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="tel link">
-              <svg class="icon" width="17" height="21">
+          <li class="contacts__item">
+            <a href="tel:+380961111111" class="link contacts__tel">
+              <svg class="contacts__icon" width="17" height="21">
                 <use href="./pictures/icons/icomoon/sprite.svg#icon-tel"></use>
               </svg>
               +38 096 111 11 11</a
@@ -697,7 +699,7 @@
               name="mail"
               placeholder="E-mail"
             />
-            <button class="footer-btn button">
+            <button class="footer-btn">
               <span class="btn-text">Подписаться</span>
               <svg class="icon-send" width="24" height="24">
                 <use
@@ -778,7 +780,7 @@
             >
           </label>
 
-          <button class="modal-btn button" type="submit">Отправить</button>
+          <button class="modal-btn" type="submit">Отправить</button>
         </form>
       </div>
     </div>

@@ -1,15 +1,11 @@
-.header-contacts {
+.page-header__contacts {
   display: flex;
   align-items: center;
   margin-left: auto;
 }
 
-.header-contacts .icon {
-  margin-right: 10px;
-  fill: currentColor;
-}
-
-.header-contacts .link {
+.contacts__mail,
+.contacts__tel {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -32,6 +28,11 @@
   }
 }
 
-.header-contacts .item + .item {
+.contacts__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.contacts__item + .contacts__item {
   margin-left: 50px;
 }

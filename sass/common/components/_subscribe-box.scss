@@ -27,6 +27,8 @@
 }
 
 .footer-btn {
+  @extend .button;
+
   display: inline-flex;
   align-items: center;
   color: $primary-white-color;

@@ -1,4 +1,6 @@
-.modal-btn.button {
+.modal-btn {
+  @extend .button;
+
   display: block;
   margin-left: auto;
   margin-right: auto;

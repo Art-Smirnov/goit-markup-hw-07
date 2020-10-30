@@ -8,11 +8,18 @@
 @import './common/utils/list';
 @import './common/utils/textarea';
 @import './common/utils/section';
+@import './common/utils/mixins';
 
-@import './common/components/head-box';
+@import './common/components/page-header__container';
 @import './common/components/logo';
 @import './common/components/site-nav';
-@import './common/components/header-contacts';
+@import './common/components/contacts';
+@import './common/components/page-header';
+
+@import './portfolio-components/filter';
+@import './portfolio-components/main-content';
+@import './portfolio-components/main-content-item';
+@import './portfolio-components/overlay';
 
 @import './common/components/footer';
 @import './common/components/footer-box';

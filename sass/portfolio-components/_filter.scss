@@ -9,20 +9,15 @@
 }
 
 .filter-button {
-  display: inline-flex;
-  border-radius: 4px;
+  @extend .button;
+
   padding: 6px 22px;
   min-width: 73px;
 
-  color: $title-text-color;
-  background-color: $secondary-bg-color;
-  border-color: transparent;
-  font-family: inherit;
-
-  text-decoration: none;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
+  letter-spacing: 0.03em;
   text-align: center;
 
   transition: color 250ms $timing-function,
