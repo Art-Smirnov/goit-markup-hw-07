@@ -1,4 +1,4 @@
-.footer-title {
+.networks-box__title {
   display: inline-block;
   margin-bottom: 20px;
 
@@ -9,19 +9,19 @@
   text-transform: uppercase;
 }
 
-.footer-networks {
+.networks-box__list {
   display: flex;
 }
 
-.footer-networks .icon {
+.networks-box__icon {
   fill: $primary-white-color;
 }
 
-.footer-networks .item:not(:last-child) {
+.networks-box__item:not(:last-child) {
   margin-right: 10px;
 }
 
-.footer-networks .link {
+.networks-box__link {
   display: inline-block;
   display: flex;
   align-items: center;
