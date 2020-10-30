@@ -1,17 +1,17 @@
-.features-list {
+.features__list {
   display: flex;
   justify-content: space-between;
 }
 
-.features-list .icon {
+.features__icon {
   display: block;
 }
 
-.features-list .item {
+.features__item {
   width: calc((100% - 90px) / 4);
 }
 
-.features-list .thumb {
+.features__thumb {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -23,7 +23,7 @@
   /* outline: 1px solid red; */
 }
 
-.features-container .list-title {
+.features__list-title {
   margin-top: 0;
   margin-bottom: 10px;
 
@@ -35,7 +35,7 @@
   text-transform: uppercase;
 }
 
-.features-container .text {
+.features__text {
   margin-top: 0;
   margin-bottom: 0;
   font-size: 14px;

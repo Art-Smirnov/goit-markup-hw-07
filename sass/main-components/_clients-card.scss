@@ -1,4 +1,8 @@
-.clients-card {
+.clients-list__item {
+  width: calc((100% - 150px) / 6);
+}
+
+.clients-list__card {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -19,24 +23,20 @@
   /* outline: 1px solid tomato; */
 }
 
-.fix-size-company {
-  padding: 20px;
-}
-
-.fix-size-company-5 {
-  padding: 15px;
-}
-
-.clients-list .link {
+.clients-list__link {
   color: currentColor;
   transition: color 250ms $timing-function;
 }
 
-.clients-list .item {
-  width: calc((100% - 150px) / 6);
-}
-
-.clients-list .icon {
+.clients-list__icon {
   display: block;
   fill: currentColor;
+
+  &--size-normalize-5 {
+    padding: 15px;
+  }
+
+  &--size-normalize {
+    padding: 20px;
+  }
 }
