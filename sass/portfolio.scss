@@ -17,8 +17,9 @@
 @import './common/components/page-header';
 
 @import './portfolio-components/filter';
-@import './portfolio-components/main-content';
-@import './portfolio-components/main-content-item';
+@import './portfolio-components/portfolio-list';
+@import './portfolio-components/portfolio-list__card';
+@import './portfolio-components/card';
 @import './portfolio-components/overlay';
 
 @import './common/components/footer';

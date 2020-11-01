@@ -1,4 +1,4 @@
-.main-content .overlay {
+.overlay {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -9,16 +9,17 @@
 
   transform: translatey(100%);
   transition: transform 250ms $timing-function;
+
+  .card__link:hover &,
+  .card__link:focus & {
+    transform: translatey(0);
+  }
 }
 
-.overlay .text {
+.overlay__text {
   padding: 63px 24px;
 
   color: $primary-white-color;
   font-size: 18px;
   line-height: 28px;
-}
-.main-content .link:hover .overlay,
-.main-content .link:focus .overlay {
-  transform: translatey(0);
 }
