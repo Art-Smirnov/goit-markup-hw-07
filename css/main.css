@@ -337,12 +337,14 @@ textarea {
 .team__info {
   padding-top: 30px;
   padding-bottom: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
   background: #ffffff;
 }
 
 .networks {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 }
 
