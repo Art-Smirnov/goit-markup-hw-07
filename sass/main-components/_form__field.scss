@@ -1,4 +1,4 @@
-.form-field {
+.form__field {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -6,18 +6,25 @@
   /* outline: 1px solid blue; */
 }
 
-.icon-input {
+.form__label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+}
+
+.form__icon {
   position: absolute;
   left: 15px;
   bottom: 10px;
   display: inline-block;
 
-  .form-field:focus-within > & {
+  .form__field:focus-within > & {
     fill: $accent-color;
   }
 }
 
-.form-input {
+.form__input {
   width: 100%;
   padding: 12px 42px;
   border-radius: 4px;
@@ -26,7 +33,7 @@
   font-size: 12px;
   line-height: 1.16;
 
-  .form-field:focus-within > & {
+  .form__field:focus-within > & {
     outline-color: $accent-color;
   }
 
@@ -37,17 +44,7 @@
   }
 }
 
-.form-input.textarea {
+.form__textarea {
+  @extend .form__input;
   padding: 12px 16px;
-}
-
-.form-label {
-  margin-bottom: 4px;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-}
-
-.form-field.comment {
-  margin-bottom: 20px;
 }

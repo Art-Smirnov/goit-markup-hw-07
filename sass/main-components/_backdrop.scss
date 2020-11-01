@@ -9,7 +9,7 @@
   transition: opacity 250ms $timing-function;
 }
 
-.backdrop.is-hidden {
+.backdrop--hidden {
   opacity: 0;
   pointer-events: none;
 }

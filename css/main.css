@@ -209,7 +209,7 @@ textarea {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../pictures/bg-img/bg-Img.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../pictures/bg-img/bg-Img.jpg);
   background-color: #2f303a;
   background-position: center;
   max-width: 1600px;
@@ -561,7 +561,7 @@ textarea {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden {
+.backdrop--hidden {
   opacity: 0;
   pointer-events: none;
 }
@@ -579,7 +579,7 @@ textarea {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.backdrop.is-hidden .modal {
+.backdrop--hidden .modal {
   transform: scale(0.9) translate(-50%, -50%);
 }
 
@@ -594,22 +594,22 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.close-modal-btn__icon {
+  fill: currentColor;
+}
+
 .close-modal-btn:hover {
   color: #2196f3;
 }
 
-.icon-close {
-  fill: currentColor;
-}
-
-.modal-form {
+.form {
   /* outline: 1px solid green; */
   width: 448px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.modal-tittle {
+.modal__tittle {
   display: block;
   margin-top: 0px;
   margin-bottom: 12px;
@@ -619,7 +619,7 @@ textarea {
   line-height: 0.87;
 }
 
-.form-field {
+.form__field {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -627,18 +627,25 @@ textarea {
   /* outline: 1px solid blue; */
 }
 
-.icon-input {
+.form__label {
+  margin-bottom: 4px;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+}
+
+.form__icon {
   position: absolute;
   left: 15px;
   bottom: 10px;
   display: inline-block;
 }
 
-.form-field:focus-within > .icon-input {
+.form__field:focus-within > .form__icon {
   fill: #2196f3;
 }
 
-.form-input {
+.form__input, .form__textarea {
   width: 100%;
   padding: 12px 42px;
   border-radius: 4px;
@@ -647,29 +654,18 @@ textarea {
   line-height: 1.16;
 }
 
-.form-field:focus-within > .form-input {
+.form__field:focus-within > .form__input, .form__field:focus-within > .form__textarea {
   outline-color: #2196f3;
 }
 
-.form-input::placeholder {
+.form__input::placeholder, .form__textarea::placeholder {
   color: rgba(117, 117, 117, 0.5);
   font-size: 12px;
   line-height: 1.16;
 }
 
-.form-input.textarea {
+.form__textarea {
   padding: 12px 16px;
-}
-
-.form-label {
-  margin-bottom: 4px;
-  font-size: 12px;
-  line-height: 1.16;
-  letter-spacing: 0.01em;
-}
-
-.form-field.comment {
-  margin-bottom: 20px;
 }
 
 .policy {
@@ -677,15 +673,16 @@ textarea {
   align-items: center;
   justify-content: center;
   margin-bottom: 30px;
+  margin-top: 20px;
   font-size: 14px;
   line-height: 1.71;
 }
 
-.policy-label {
+.policy__label {
   margin-left: 8.38px;
 }
 
-.policy input[type='checkbox'] {
+.policy__checkbox {
   position: absolute !important;
   clip: rect(1px 1px 1px 1px);
   clip: rect(1px, 1px, 1px, 1px);
@@ -696,7 +693,7 @@ textarea {
   overflow: hidden;
 }
 
-.policy > .icon {
+.policy__icon {
   display: inline-block;
   width: 16px;
   height: 15px;
@@ -704,15 +701,15 @@ textarea {
   border-radius: 2px;
 }
 
-.checkbox:checked + .icon {
+.policy__checkbox:checked + .policy__icon {
   border-color: #2196f3;
   background-color: #2196f3;
-  background-image: url(../../pictures/icons/icon-check.svg);
+  background-image: url(../pictures/icons/icon-check.svg);
   background-origin: border-box;
   /* background-size: contain; */
 }
 
-.policy-link {
+.policy__link {
   color: #2196f3;
 }
 

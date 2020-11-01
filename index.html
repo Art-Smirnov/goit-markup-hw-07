@@ -750,51 +750,51 @@
 
     <!-- Модельное окно -->
 
-    <div data-modal class="backdrop is-hidden">
+    <div data-modal class="backdrop backdrop--hidden">
       <div class="modal">
         <button class="close-modal-btn" data-modal-close>
-          <svg class="icon-close" width="11" height="11">
+          <svg class="close-modal-btn__icon" width="11" height="11">
             <use href="./pictures/icons/icomoon/sprite.svg#icon-close"></use>
           </svg>
         </button>
 
-        <b class="modal-tittle">Оставьте свои данные, мы вам перезвоним</b>
+        <b class="modal__tittle">Оставьте свои данные, мы вам перезвоним</b>
 
-        <form class="modal-form">
-          <label class="form-field">
-            <span class="form-label">Имя</span
-            ><input class="form-input" type="text" name="name" />
-            <svg class="icon-input" width="18" height="18">
+        <form class="form">
+          <label class="form__field">
+            <span class="form__label">Имя</span
+            ><input class="form__input" type="text" name="name" />
+            <svg class="form__icon" width="18" height="18">
               <use
                 href="./pictures/icons/icomoon/sprite.svg#icon-person-black"
               ></use>
             </svg>
           </label>
 
-          <label class="form-field"
-            ><span class="form-label">Телефон</span
-            ><input class="form-input" type="tel" name="tel" />
-            <svg class="icon-input" width="18" height="18">
+          <label class="form__field"
+            ><span class="form__label">Телефон</span
+            ><input class="form__input" type="tel" name="tel" />
+            <svg class="form__icon" width="18" height="18">
               <use
                 href="./pictures/icons/icomoon/sprite.svg#icon-phone-black"
               ></use>
             </svg>
           </label>
 
-          <label class="form-field"
-            ><span class="form-label">Почта</span
-            ><input class="form-input" type="email" name="mail" />
-            <svg class="icon-input" width="18" height="18">
+          <label class="form__field"
+            ><span class="form__label">Почта</span
+            ><input class="form__input" type="email" name="mail" />
+            <svg class="form__icon" width="18" height="18">
               <use
                 href="./pictures/icons/icomoon/sprite.svg#icon-email-black"
               ></use>
             </svg>
           </label>
 
-          <label class="form-field comment">
-            <span class="form-label">Комментарий</span>
+          <label class="form__field">
+            <span class="form__label">Комментарий</span>
             <textarea
-              class="form-input textarea"
+              class="form__textarea"
               name="comment"
               rows="6"
               placeholder="Введите текст"
@@ -802,15 +802,15 @@
           </label>
 
           <label class="policy">
-            <input class="checkbox" type="checkbox" name="policy" />
-            <span class="icon"></span>
-            <span class="policy-label"
+            <input class="policy__checkbox" type="checkbox" name="policy" />
+            <span class="policy__icon"></span>
+            <span class="policy__label"
               >Соглашаюсь с рассылкой и принимаю
               <a
                 target="_blank"
                 rel="noopener noreferer"
                 href="#"
-                class="policy-link"
+                class="policy__link"
                 >Условия договора</a
               ></span
             >

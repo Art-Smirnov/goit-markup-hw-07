@@ -9,11 +9,11 @@
 
   transition: color 250ms $timing-function;
 
+  &__icon {
+    fill: currentColor;
+  }
+
   &:hover {
     color: $accent-color;
   }
-}
-
-.icon-close {
-  fill: currentColor;
 }
