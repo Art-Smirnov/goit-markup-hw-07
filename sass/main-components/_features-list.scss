@@ -1,6 +1,5 @@
 .features__list {
-  display: flex;
-  justify-content: space-between;
+  @include displayFlex();
 }
 
 .features__icon {

@@ -1,6 +1,5 @@
 .activity-list {
-  display: flex;
-  justify-content: space-between;
+  @include displayFlex();
 }
 
 .activity-list__item {

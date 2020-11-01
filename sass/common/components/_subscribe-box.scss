@@ -33,8 +33,7 @@
 .footer-btn {
   @extend .button;
 
-  display: inline-flex;
-  align-items: center;
+  @include displayFlex($type: inline-flex);
   color: $primary-white-color;
   background-color: $accent-color;
 

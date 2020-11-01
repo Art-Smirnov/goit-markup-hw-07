@@ -1,7 +1,6 @@
 .filter {
   margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
+  @include displayFlex($horisontal: center);
 }
 
 .filter__item:not(:last-child) {

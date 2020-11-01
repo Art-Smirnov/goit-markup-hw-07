@@ -1,4 +1,3 @@
 .footer__box {
-  display: flex;
-  align-items: baseline;
+  @include displayFlex($vertical: baseline);
 }

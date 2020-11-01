@@ -1,5 +1,8 @@
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: $third-bg-color;
+
+  &--dark-bg {
+    background-color: $third-bg-color;
+  }
 }

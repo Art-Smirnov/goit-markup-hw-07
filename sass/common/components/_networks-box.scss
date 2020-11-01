@@ -22,10 +22,7 @@
 }
 
 .networks-box__link {
-  display: inline-block;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  @include displayFlex($horisontal: center);
   height: 44px;
   width: 44px;
 

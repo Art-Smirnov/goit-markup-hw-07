@@ -1,7 +1,5 @@
 .activity-list__overlay {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  @include displayFlex($horisontal: center);
   bottom: 0;
 
   position: absolute;
