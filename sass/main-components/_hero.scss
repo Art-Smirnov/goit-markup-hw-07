@@ -18,17 +18,16 @@
   max-width: 1600px;
   height: 600px;
   /* outline: 1px solid black; */
-}
+  &__title {
+    margin-top: 0;
+    margin-bottom: 30px;
 
-.hero__title {
-  margin-top: 0;
-  margin-bottom: 30px;
+    color: $primary-white-color;
 
-  color: $primary-white-color;
-
-  font-weight: 900;
-  font-size: 44px;
-  line-height: 1.36;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
 }

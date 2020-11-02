@@ -14,12 +14,12 @@
   .card__link:focus & {
     transform: translatey(0);
   }
-}
 
-.overlay__text {
-  padding: 63px 24px;
+  &__text {
+    padding: 63px 24px;
 
-  color: $primary-white-color;
-  font-size: 18px;
-  line-height: 28px;
+    color: $primary-white-color;
+    font-size: 18px;
+    line-height: 28px;
+  }
 }

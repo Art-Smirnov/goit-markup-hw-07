@@ -165,15 +165,7 @@ textarea {
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.page-header__contacts {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-left: auto;
-}
-
-.contacts__mail,
-.contacts__tel {
+.contacts__mail, .contacts__tel {
   display: flex;
   align-items: center;
   padding-top: 32px;
@@ -188,9 +180,7 @@ textarea {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.contacts__mail:hover, .contacts__mail:focus,
-.contacts__tel:hover,
-.contacts__tel:focus {
+.contacts__mail:hover, .contacts__mail:focus, .contacts__tel:hover, .contacts__tel:focus {
   color: #2196f3;
 }
 
@@ -201,6 +191,13 @@ textarea {
 
 .contacts__item + .contacts__item {
   margin-left: 50px;
+}
+
+.page-header__contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
 }
 
 .hero {
@@ -502,10 +499,6 @@ textarea {
   background-color: #2196f3;
 }
 
-.subscribe-box {
-  margin-left: auto;
-}
-
 .subscribe-box__form {
   display: flex;
 }
@@ -552,6 +545,10 @@ textarea {
   margin-right: 10px;
 }
 
+.footer__subscribe-box {
+  margin-left: auto;
+}
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -585,6 +582,16 @@ textarea {
   transform: scale(0.9) translate(-50%, -50%);
 }
 
+.modal__tittle {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 12px;
+  text-align: center;
+  color: #212121;
+  font-size: 20px;
+  line-height: 0.87;
+}
+
 .close-modal-btn {
   display: block;
   margin-left: auto;
@@ -607,18 +614,6 @@ textarea {
 .form {
   /* outline: 1px solid green; */
   width: 448px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.modal__tittle {
-  display: block;
-  margin-top: 0px;
-  margin-bottom: 12px;
-  text-align: center;
-  color: #212121;
-  font-size: 20px;
-  line-height: 0.87;
 }
 
 .form__field {
@@ -668,6 +663,11 @@ textarea {
 
 .form__textarea {
   padding: 12px 16px;
+}
+
+.modal__form {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .policy {

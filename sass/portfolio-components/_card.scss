@@ -7,37 +7,37 @@
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
   /* background-color: tomato; */
-}
 
-.card__link {
-  text-decoration: none;
-}
+  &__link {
+    text-decoration: none;
+  }
 
-.card__thumb {
-  position: relative;
-  overflow: hidden;
-}
+  &__thumb {
+    position: relative;
+    overflow: hidden;
+  }
 
-.card__title {
-  margin-top: 0;
-  margin-bottom: 10px;
+  &__title {
+    margin-top: 0;
+    margin-bottom: 10px;
 
-  color: $title-text-color;
-  font-size: 18px;
-  line-height: 2;
-}
+    color: $title-text-color;
+    font-size: 18px;
+    line-height: 2;
+  }
 
-.card__text {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: $title-text-color;
-  font-size: 16px;
-  line-height: 1.87;
-}
+  &__text {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: $title-text-color;
+    font-size: 16px;
+    line-height: 1.87;
+  }
 
-.card__description {
-  padding: 20px 24px;
+  &__description {
+    padding: 20px 24px;
 
-  border: 1px solid #eeeeee;
-  border-top-color: transparent;
+    border: 1px solid #eeeeee;
+    border-top-color: transparent;
+  }
 }

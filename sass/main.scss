@@ -18,16 +18,13 @@
 @import './main-components/hero';
 
 @import './main-components/features';
-@import './main-components/features-list';
 
 @import './main-components/activity';
 @import './main-components/activity-overlay';
 
 @import './main-components/team';
-@import './main-components/team-item';
 
 @import './main-components/clients-list';
-@import './main-components/clients-card';
 
 @import './common/components/footer';
 @import './common/components/footer-box';
@@ -36,12 +33,12 @@
 @import './common/components/footer-contacts';
 @import './common/components/networks-box';
 @import './common/components/subscribe-box';
+@import './common/components/footer__subscribe-box';
 
 @import './main-components/backdrop';
 @import './main-components/modal';
 @import './main-components/close-modal-btn';
 @import './main-components/form';
-@import './main-components/modal__tittle';
-@import './main-components/form__field';
+@import './main-components/modal__form';
 @import './main-components/policy';
 @import './main-components/modal-btn';

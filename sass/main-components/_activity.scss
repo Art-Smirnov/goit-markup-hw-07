@@ -1,7 +1,7 @@
 .activity-list {
   @include displayFlex();
-}
 
-.activity-list__item {
-  position: relative;
+  &__item {
+    position: relative;
+  }
 }
