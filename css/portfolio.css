@@ -270,6 +270,7 @@ textarea {
 .card__thumb {
   position: relative;
   overflow: hidden;
+  width: 370px;
 }
 
 .card__title {

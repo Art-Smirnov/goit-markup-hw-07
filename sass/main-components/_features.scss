@@ -1,14 +1,18 @@
 .features {
   padding-bottom: 0px;
+
   &__list {
     @include displayFlex();
   }
+
   &__icon {
     display: block;
   }
+
   &__item {
     width: calc((100% - 90px) / 4);
   }
+
   &__thumb {
     display: flex;
     align-items: center;
@@ -20,6 +24,7 @@
     height: 120px;
     /* outline: 1px solid red; */
   }
+
   &__list-title {
     margin-top: 0;
     margin-bottom: 10px;

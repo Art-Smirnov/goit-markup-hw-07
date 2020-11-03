@@ -9,15 +9,19 @@
     line-height: 1.14;
     text-transform: uppercase;
   }
+
   &__list {
     display: flex;
   }
+
   &__icon {
     fill: $primary-white-color;
   }
+
   &__item:not(:last-child) {
     margin-right: 10px;
   }
+
   &__link {
     @include displayFlex($horisontal: center);
     height: 44px;
